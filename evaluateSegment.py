@@ -31,7 +31,7 @@ else:
     input_dir = 'add_dataset/test' 
     output_dir = 'add_dataset/output'
     groundtruth_dir = 'add_dataset/groundtruth'
-    numImages = 25
+    numImages = 20
 eps = 0.00000001
 
 onlyfiles = [f for f in listdir(input_dir) if isfile(join(input_dir, f))]
